@@ -1,0 +1,37 @@
+{
+  "env":{
+    "node":1
+  },
+  rules:{
+  "comma-dangle":[1,"always-multiline"],
+  "quotes":[1,"single"],
+  "eqeqeq": [2,"allow-null"],
+  "wrap-iife": [2,"inside"],
+  "no-undefined":2,
+  "no-unused-vars":2,
+  "no-shadow":1,
+  "no-catch-shadow":2,
+  "no-delete-var":2,
+  "no-use-before-define":2,
+  "new-cap":2,
+  "no-caller":2,
+  "no-dupe-args":2,
+  "no-dupe-keys":2,
+  "no-duplicate-case":2,
+  "no-ex-assign":2,
+  "no-empty":2,
+  "no-cond-assign":2,
+  "no-extra-semi":2,
+  "no-extra-parens":2,
+  "no-sparse-arrays":2,
+  "no-unreachable":2,
+  "no-mixed-requires":[1,true],
+  "no-new-require":1,
+  "no-redeclare":2,
+  "no-bitwise":2,
+  "guard-for-in":2,
+  "no-func-assign":2,
+  "no-loop-func":2,
+  "no-nested-ternary":1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "login",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/mocha test/models --reporter list -c --full-trace --inline-diffs --debug-brk",
+    "debug": "iron-node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^2.9.30",
+    "body-parser": "~1.12.4",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.12.4",
+    "express-jwt": "^3.0.1",
+    "express-method-override": "0.0.3",
+    "express-session": "^1.11.3",
+    "express-unless": "^0.1.1",
+    "helmet": "^0.9.1",
+    "jade": "~1.9.2",
+    "jsonwebtoken": "^5.0.4",
+    "lodash.foreach": "^3.0.3",
+    "lodash.map": "^3.1.4",
+    "lodash.reduce": "^3.1.2",
+    "mongoose": "^4.0.5",
+    "morgan": "~1.5.3",
+    "nodemailer": "^1.4.0",
+    "nodemailer-wellknown": "^0.1.5",
+    "passport": "^0.2.2",
+    "passport-dropbox-oauth2": "^0.1.6",
+    "passport-facebook": "^2.0.0",
+    "passport-github": "^0.1.5",
+    "passport-google-oauth": "^0.2.0",
+    "passport-instagram": "^0.1.2",
+    "passport-linkedin-oauth2": "^1.4.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.3",
+    "serve-favicon": "~2.2.1"
+  },
+  "devDependencies": {
+    "bunyan": "^1.4.0",
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "stackup": "^1.0.1"
+  }
+}

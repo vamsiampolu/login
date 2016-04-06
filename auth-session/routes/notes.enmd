@@ -1,0 +1,15 @@
+**Es6ification of a node login app**
+
+I started with the functions that we export, I export a single function per file, in the past I preferred NFEs for function declaration and placing the module.exports at the end of the file, however I am learning that this adds to the verbosity of the code, making it almost impossible to grok code while reading it. However the variable names are descriptive and good, so thats a plus.
+
+So, the first thing was to remove the NFE and make it an arrow  function, the next step is to use destructuring wherever possible.This removes names but makes code very clean.
+
+I would like to curry the functions where I return a function from within a function, this would make the code easy to read.
+
+Also can I just add middleware to a route by just spreading them using an `...` argument.
+
+Twice, I have used reducers to perform side-effectsinstead of making the reducer generally available.
+
+I also seem to be repeating my code when I use strategies. We need to make them reusable while ensuring that they are not hard to debug.
+
+I need to export ES6 modules instead of commonjs modules and make some of the functions for generating a createUser and verifyCallback reusable.
